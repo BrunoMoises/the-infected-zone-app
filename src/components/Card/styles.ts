@@ -5,9 +5,9 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 222px;
-  height: 263px;
-  gap: 20px;
+  width: 202px;
+  height: 243px;
+  gap: 30px;
   border-radius: 20px;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.35);
   background-color: ${props => props.theme.colors.white};
