@@ -9,11 +9,11 @@ const menuItens = [
         title: "Home"
     },
     {
-        href: "/ellie",
+        href: "/Ellie",
         title: "Ellie Williams"
     },
     {
-        href: "/sobre",
+        href: "/Sobre",
         title: "Sobre o projeto"
     },
 ]
