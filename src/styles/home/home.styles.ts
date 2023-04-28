@@ -1,26 +1,30 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 100px;
-  width: 100%;
-  height: 100%;
-`
-
 export const FilterContainer = styled.div`
+  width: 90%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 `
 export const CardContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 47px;
-  position: absolute;
-  left: 0;
+  gap: 80px;
+`
+
+export const Search = styled.div`
+  display: flex;
+  gap: 10px;
+`
+
+export const Paginator = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 34px;
+  font-weight: bold;
+  color: ${(props) => props.theme.colors.tertiary};
 `
