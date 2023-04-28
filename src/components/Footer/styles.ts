@@ -7,9 +7,8 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
+  position: relative;
   font-size: 26px;
-  bottom: 0;
 
   a {
     position: absolute;
