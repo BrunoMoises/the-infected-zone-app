@@ -14,16 +14,16 @@ const Card = ({image, title, id}: cardProps) => {
     return (
         <Container>
             <Link href={`/post/${id}`}>
-                <Image src={image} alt={title} width={205}/>
+                <Image src={image} alt={title} width={185}/>
                 <h1>{title}</h1>
             </Link>
             <Menu>
                 <Link href='/like'>
-                    <AiOutlineHeart size={40}/>
+                    <AiOutlineHeart size={30}/>
                 </Link>
                 <span>2.34k</span>
                 <Link href='/share'>
-                    <FaShare size={40}/>
+                    <FaShare size={30}/>
                 </Link>
             </Menu>
         </Container>
